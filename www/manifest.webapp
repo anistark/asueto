@@ -4,6 +4,13 @@
   "description": "Local Holiday App",
   "launch_path": "/www/index.html",
   "icons": {
+    "16": "/www/img/icons/asueto16.png",
+    "32": "/www/img/icons/asueto32.png",
+    "48": "/www/img/icons/asueto48.png",
+    "60": "/www/img/icons/asueto60.png",
+    "64": "/www/img/icons/asueto64.png",
+    "90": "/www/img/icons/asueto90.png",
+    "128": "/www/img/icons/asueto128.png"
   },
   "developer": {
     "name": "anistark",
