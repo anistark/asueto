@@ -1,0 +1,8 @@
+{
+  "amd": {},
+  "volo": {
+    "baseUrl": "www/js/lib",
+    "dependencies": {
+    }
+  }
+}
