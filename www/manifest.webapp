@@ -4,13 +4,6 @@
   "description": "Local Holiday App",
   "launch_path": "/www/index.html",
   "icons": {
-    "16": "/www/img/icons/rzicon16.png",
-    "32": "/www/img/icons/rzicon32.png",
-    "48": "/www/img/icons/rzicon48.png",
-    "60": "/www/img/icons/rzicon60.png",
-    "64": "/www/img/icons/rzicon64.png",
-    "90": "/www/img/icons/rzicon90.png",
-    "128": "/www/img/icons/rzicon128.png"
   },
   "developer": {
     "name": "anistark",
