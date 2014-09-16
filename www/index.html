@@ -9,17 +9,41 @@
   <link rel="stylesheet" href="css/menu.css" type="text/css"/>
   <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
   <script type="text/javascript" src="js/menu.js"></script>
+  <script src="js/modernizr.js"></script>
+  <link rel="stylesheet" href="css/step.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 </head>
 <body>
-  <div class="rmm" data-menu-style='minimal'>
-    <ul>
-      <li><a href='#home'>Home</a></li>
-      <li><a href='https://en.wikipedia.org/wiki/Bangalore'>Bangalore wiki</a></li>
-      <li><a href='#'>Places of Interest</a></li>
-      <li><a href='#'>About Asueto</a></li>
-    </ul>
-  </div>
+  <header id="top" role="banner">
+        <div class="block">
+            <h1 class="block-title">Asueto</h1>
+            <a class="nav-btn" id="nav-open-btn" href="#nav">Asueto Interest</a>
+        </div>
+    </header>
+    <nav id="nav" role="navigation">
+        <div class="block">
+            <h2 class="block-title">Chapters</h2>
+            <ul>
+                <li class="is-active">
+                    <a href="#">Place 1</a>
+                </li>
+                <li>
+                    <a href="#">Place 2</a>
+                </li>
+                <li>
+                    <a href="#">Place 3</a>
+                </li>
+                <li>
+                    <a href="#">Place 4</a>
+                </li>
+                <li>
+                    <a href="#">Place 5</a>
+                </li>
+            </ul>
+            <a class="close-btn" id="nav-close-btn" href="#top">Return to Map</a>
+        </div>
+    </nav>
+
   <div id="map"></div>
   <script src="js/leaflet.js"></script>
   <script src="js/map.js"></script>
